@@ -15,10 +15,10 @@ This project demonstrates basic socket communication between a client and a serv
     ```bash
         python3 server.py
 
-    The server will start listening on 127.0.0.1 (localhost) and port 12345. It will wait for a client to connect.
+The server will start listening on 127.0.0.1 (localhost) and port 12345. It will wait for a client to connect.
 
 
-## Running the lient
+## Running the Client
 1. Open a terminal/command prompt.
 2. Navigate to the directory where the client.py script is located.
 3. Run the client script:
@@ -26,5 +26,5 @@ This project demonstrates basic socket communication between a client and a serv
     ```bash
         python3 client.py
 
-    The client will connect to the server, send the message "Hello Server", and print the server's response (which will be the same message it received).
+The client will connect to the server, send the message "Hello Server", and print the server's response (which will be the same message it received).
 
